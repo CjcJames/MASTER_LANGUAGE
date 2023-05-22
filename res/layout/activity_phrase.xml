@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phrase">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/bg2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/top1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/box"/>
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="100dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="goBack"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/btnSettings"
+        android:layout_width="56dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/settings" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="6dp"
+        android:text="Phrase"
+        android:textSize="45dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Train"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:text="Train"
+        android:textSize="45sp" />
+
+
+    <TextView
+        android:id="@+id/wordDelivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="543dp"
+        android:text="Easy"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btnEasy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="461dp"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="goEasy1"
+        app:srcCompat="@drawable/lvl" />
+
+    <TextView
+        android:id="@+id/txtEasy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="434dp"
+        android:text="Level 1"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/btnEasy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginBottom="459dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/locked" />
+
+    <TextView
+        android:id="@+id/txtEasy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="434dp"
+        android:text="Level 2"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/btnEasy3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="461dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/locked" />
+
+    <TextView
+        android:id="@+id/txtEasy3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="434dp"
+        android:text="Level 3"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/WordDelivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="377dp"
+        android:text="Hard"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btnHard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="279dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/lvl" />
+
+    <TextView
+        android:id="@+id/txtHard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="254dp"
+        android:text="Level 1"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/btnHard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="277dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/locked" />
+
+    <TextView
+        android:id="@+id/btnHard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="253dp"
+        android:text="Level 2"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/btnHard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="279dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/locked" />
+
+    <TextView
+        android:id="@+id/btnHard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="254dp"
+        android:text="Level 3"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text="Very Hard"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/btnVeryHard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/lvl" />
+
+    <TextView
+        android:id="@+id/txtVeryHard1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="75dp"
+        android:text="Level 1"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/btnVeryHard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="98dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/locked" />
+
+    <TextView
+        android:id="@+id/txtVeryHard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="74dp"
+        android:text="Level 2"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/btnVeryHard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/locked" />
+
+    <TextView
+        android:id="@+id/txtVeryHard3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="75dp"
+        android:text="Level 3"
+        android:textSize="18dp" />
+
+</RelativeLayout>
